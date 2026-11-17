@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>광양 입주청소 다하리</title>
+<meta name="description" content="광양시 전지역 입주청소 전문. 당일 청소 가능, 완료 30분 전 연락 후 직접 확인하고 결제.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&display=swap">
+<style>
+:root{--blue:#2563eb;--ink:#111827;--sub:#4b5563;--line:#e5e7eb;--bg:#fafafa;--kakao:#fae54b;--naver:#5ccb6a}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Noto Sans KR",system-ui,sans-serif;color:var(--ink);background:#fff;-webkit-font-smoothing:antialiased;padding-block:0 96px;line-height:1.5;margin:0}
+:root{color-scheme:light}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;display:block}
+.wrap{max-width:560px;margin:0 auto;padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
+section{padding:64px 0}
+.alt{background:var(--bg)}
+.eyebrow{color:var(--blue);font-weight:800;font-size:13px;letter-spacing:.08em;text-align:center}
+h2{font-size:26px;font-weight:800;text-align:center;margin:6px 0 10px;letter-spacing:-.02em;line-height:1.3}
+.lead{text-align:center;color:var(--sub);font-weight:600;font-size:15px;margin-bottom:28px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;border-radius:16px;font-weight:800;font-size:18px;padding:18px;box-shadow:0 6px 18px rgba(0,0,0,.1);transition:transform .15s}
+.btn:active{transform:scale(.98)}
+.kakao{background:var(--kakao)}.naver{background:var(--naver);color:#fff}
+.white{background:#fff;border:1px solid var(--line)}
+.blue{background:var(--blue);color:#fff;display:inline-flex;padding:14px 22px;font-size:16px;border-radius:14px}
+/* hero */
+.hero{padding:70px 0 40px;background:linear-gradient(#fff,#f8fafc)}
+.loc{display:inline-flex;gap:6px;align-items:center;background:#f3f4f6;border-radius:99px;padding:8px 16px;font-weight:700;font-size:14px}
+.hero h1{font-size:44px;line-height:1.18;font-weight:900;margin:22px 0 14px;letter-spacing:-.03em}
+.hero h1 em{color:var(--blue);font-style:normal}
+.hero .sub{font-size:19px;font-weight:700;margin-bottom:22px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}
+.chips span{background:#f3f4f6;border-radius:99px;padding:9px 16px;font-weight:700;font-size:14px}
+.hero .btn+.btn{margin-top:12px}
+.hero small{display:block;text-align:center;font-weight:700;margin:16px 0}
+.center{text-align:center}
+/* before after */
+.ba{display:grid;grid-template-columns:1fr 1fr;gap:4px;border-radius:20px;overflow:hidden;box-shadow:0 8px 26px rgba(0,0,0,.1);margin-bottom:12px}
+.ba figure{position:relative;aspect-ratio:3/4}
+.ba img{width:100%;height:100%;object-fit:cover}
+.tag{position:absolute;bottom:10px;left:10px;background:rgba(55,65,81,.85);color:#fff;font-size:12px;font-weight:800;padding:5px 12px;border-radius:8px}
+.tag.a{left:auto;right:10px;background:#4cb782}
+.hero-ba .tag{top:10px;bottom:auto;background:#ef5350;font-size:13px}
+.hero-ba .tag.a{background:#4cb782}
+.cap{text-align:center;font-weight:800;font-size:16px;margin:4px 0 26px}
+.note{text-align:center;color:var(--sub);font-weight:700;font-size:14px;margin:6px 0 24px}
+/* cards */
+.grid{display:grid;gap:14px}
+.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:0 2px 10px rgba(0,0,0,.04)}
+.card .ic{font-size:28px}
+.card h3{font-size:18px;font-weight:800;margin:8px 0 6px}
+.card p{color:var(--sub);font-size:15px;font-weight:500}
+.proof{border-radius:16px;margin:0 auto 26px;box-shadow:0 4px 18px rgba(0,0,0,.1)}
+.photos{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.photos img{border-radius:14px;width:100%;aspect-ratio:3/4;object-fit:cover}
+.photos .gif{grid-column:span 1;aspect-ratio:1;object-fit:cover}
+.h3c{text-align:center;font-size:20px;font-weight:800;margin:36px 0 16px}
+.rev{display:grid;gap:14px}
+.rev img{border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,.1);width:100%}
+/* steps */
+.step{display:flex;gap:16px;align-items:flex-start}
+.step .n{font-size:30px}
+.step b{color:var(--blue);font-size:12px;letter-spacing:.08em}
+.step h3{font-size:17px;margin:2px 0}
+/* price */
+.price{position:relative}
+.price h3{font-size:20px;font-weight:800}
+.price .p{font-size:34px;font-weight:900;margin:8px 0 2px;letter-spacing:-.02em}
+.price .b{color:#6b7280;font-weight:700;font-size:14px;margin-bottom:16px}
+.price ul{list-style:none;margin-bottom:20px;display:grid;gap:10px}
+.price li{font-weight:700;font-size:15px}
+.price li:before{content:"✓";color:#10b981;margin-right:10px}
+.price .q{display:block;text-align:center;background:#f3f4f6;border-radius:12px;padding:14px;font-weight:800}
+.price.hot{border:2px solid var(--blue)}
+.price.hot .q{background:var(--blue);color:#fff}
+.badge{position:absolute;top:-12px;right:20px;background:var(--blue);color:#fff;font-size:12px;font-weight:800;padding:5px 12px;border-radius:99px}
+.fine{color:#6b7280;font-size:13px;font-weight:600;margin-top:18px}
+/* faq */
+details{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 20px}
+details+details{margin-top:12px}
+summary{font-weight:800;font-size:16px;cursor:pointer;list-style:none}
+summary::-webkit-details-marker{display:none}
+details p{margin-top:12px;color:var(--sub);font-weight:500;font-size:15px}
+/* offer */
+.offer{background:linear-gradient(135deg,#fff8d6,#ffe9a8);border-radius:24px;padding:30px 22px;text-align:center}
+.offer h2{margin-top:0}
+.offer .big{font-size:20px;font-weight:800;margin:14px 0 6px}
+.offer p{font-weight:700;margin:6px 0}
+.offer .btn{margin-top:20px}
+.video{position:relative;aspect-ratio:16/9;border-radius:18px;overflow:hidden;box-shadow:0 8px 26px rgba(0,0,0,.15)}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.final{background:var(--bg);text-align:center}
+.final h2{font-size:30px}
+.final .btn{margin-top:14px}
+.final .tel{display:inline-flex;padding:14px 36px;font-size:17px;margin-top:14px}
+.final .small{font-size:13px;color:var(--sub);font-weight:700;margin-top:18px}
+/* sticky */
+.sticky{position:fixed;left:0;right:0;bottom:0;padding:10px max(16px,env(safe-area-inset-right,0px)) calc(8px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));background:linear-gradient(transparent,#fff 28%);z-index:50}
+.sticky .btn{max-width:540px;margin:0 auto;padding:15px;font-size:17px}
+.sticky small{display:block;text-align:center;font-weight:800;font-size:12px;margin-top:6px}
+/* page switch */
+#reviews-page{display:none}
+body.rv #home{display:none}body.rv #reviews-page{display:block}
+.back{display:inline-block;font-weight:800;color:var(--blue);margin:26px 0 8px}
+</style>
+</head>
+<body>
+<div id="home">
+<header class="hero"><div class="wrap">
+  <span class="loc">📍 광양시 전지역</span>
+  <h1>광양 입주청소 <em>전문</em></h1>
+  <p class="sub">광양푸르지오더퍼스트, 창덕에버빌2단지 누적 100건 이상 진행</p>
+  <div class="chips"><span>당일 청소 가능</span><span>광양시 누적 500건+</span><span>불만족률 0.05%</span><span>파트별 걸레 분리사용</span><span>숨고 플랫폼 리뷰 5.0점</span></div>
+  <a class="btn kakao" href="http://pf.kakao.com/_xmExcjn/chat">💬 카카오톡 상담문의</a>
+  <a class="btn white" href="tel:010-2188-8804">📞 전화 상담 문의</a>
+  <small>🎁 지금 문의시 1만원 할인</small>
+  <div class="center"><a class="btn blue" href="#reviews">⭐ 작업 후기 보기</a></div>
+</div></header>
+
+<section><div class="wrap">
+  <h2 class="fade" style="font-size:22px">✨ 이렇게 달라집니다</h2>
+  <div class="hero-ba" style="margin-top:24px">
+    <div class="ba fade"><figure><img src="img/43c3aa6a6e.jpg" alt="Before"><span class="tag">BEFORE</span></figure><figure><img src="img/db18bb372b.jpg" alt="After"><span class="tag a">AFTER</span></figure></div>
+    <div class="ba fade"><figure><img src="img/caaae0d89b.jpg" alt="Before"><span class="tag">BEFORE</span></figure><figure><img src="img/9b7ae95dfd.jpg" alt="After"><span class="tag a">AFTER</span></figure></div>
+    <div class="ba fade"><figure><img src="img/32cd6a02dc.jpg" alt="Before"><span class="tag">BEFORE</span></figure><figure><img src="img/40f93e3842.jpg" alt="After"><span class="tag a">AFTER</span></figure></div>
+  </div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+  <div class="eyebrow fade">WHY US</div>
+  <h2 class="fade">왜 다하리 토탈케어 일까요?</h2>
+  <p class="lead fade">이미 숨고 플랫폼에서 검증되었습니다</p>
+  <img class="proof fade" src="img/a7e76cd1a3.jpg" alt="숨고 검증">
+  <div class="grid">
+    <div class="card fade"><div class="ic">🎯</div><h3>작업 완료 30분 전 연락</h3><p>직접 눈으로 확인하신 후 결제하세요. 만족하실 때까지 재작업합니다.</p></div>
+    <div class="card fade"><div class="ic">💎</div><h3>광양 아파트 전문</h3><p>광양푸르지오더퍼스트, 창덕에버빌2단지 등 광양 주요 아파트 500건+ 시공 경험으로 고가 가구 손상 Zero</p></div>
+    <div class="card fade"><div class="ic">🛡️</div><h3>1주일 A/S 보장</h3><p>작업 후 발견되는 문제, 1주일 내 무상 재방문 처리해드립니다.</p></div>
+    <div class="card fade"><div class="ic">🧽</div><h3>구역별 걸레 완벽 분류</h3><p>화장실·주방·거실 걸레 철저히 분리. 위생적인 청소를 약속합니다.</p></div>
+    <div class="card fade"><div class="ic">🌿</div><h3>친환경 세제 + 스팀소독</h3><p>아이·반려동물 있는 집도 안심. 피톤치드 마무리 서비스 제공.</p></div>
+    <div class="card fade"><div class="ic">👥</div><h3>소수 직영팀 운영</h3><p>외주 없이 직영팀만 운영. 누적 불만족률 0.05% 미만 유지.</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="eyebrow fade">GALLERY</div>
+  <h2 class="fade">다하리 실제 시공 사례</h2>
+  <div style="height:22px"></div>
+  <div class="ba fade"><figure><img src="img/43c3aa6a6e.jpg" alt="Before"><span class="tag">Before</span></figure><figure><img src="img/db18bb372b.jpg" alt="After"><span class="tag a">After</span></figure></div>
+  <p class="cap">창틀 청소작업</p>
+  <div class="ba fade"><figure><img src="img/caaae0d89b.jpg" alt="Before"><span class="tag">Before</span></figure><figure><img src="img/9b7ae95dfd.jpg" alt="After"><span class="tag a">After</span></figure></div>
+  <p class="cap">싱크대 배수구 청소</p>
+  <div class="ba fade"><figure><img src="img/32cd6a02dc.jpg" alt="Before"><span class="tag">Before</span></figure><figure><img src="img/40f93e3842.jpg" alt="After"><span class="tag a">After</span></figure></div>
+  <p class="cap">문틀 풀자국 제거</p>
+  <p class="note">수납장·전등커버 탈거 후 작업으로 숨은 오염까지 완벽 제거</p>
+
+  <h3 class="h3c fade">실제 작업 모습</h3>
+  <div class="photos fade">
+    <img class="gif" src="img/d952120938.gif" alt="실제 작업 GIF 1">
+    <img class="gif" src="img/5f3524b509.gif" alt="실제 작업 GIF 2">
+    <img src="img/bceed9e0db.jpg" alt="작업 사진 1">
+    <img src="img/4d9bc22d33.jpg" alt="작업 사진 2">
+    <img src="img/97a43e0c7d.jpg" alt="작업 사진 3">
+    <img src="img/0c16711bb0.jpg" alt="작업 사진 4">
+    <img src="img/1a54fd5ede.jpg" alt="작업 사진 5">
+    <img src="img/5d23656b13.jpg" alt="작업 사진 6">
+  </div>
+</div></section>
+
+<section class="alt" id="reviews"><div class="wrap">
+  <div class="eyebrow fade">REVIEWS</div>
+  <h2 class="fade">고객님들의 생생한 후기</h2>
+  <div style="height:20px"></div>
+  <div class="rev">
+    <img class="fade" src="img/dd54a21a08.png" alt="고객 후기 1">
+    <img class="fade" src="img/d4f69e7c10.png" alt="고객 후기 2">
+  </div>
+  <div class="center" style="margin-top:28px"><a class="btn blue" href="#all-reviews">후기 더보기</a></div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="eyebrow fade">PREMIUM</div>
+  <h2 class="fade">✨ 광양 프리미엄 청소, 다르게 합니다</h2>
+  <div style="height:20px"></div>
+  <div class="grid">
+    <div class="card fade"><div class="ic">🏆</div><h3>명품 가구 전문 케어</h3><p>이탈리아 가구, 대리석 마루, 수입 주방 등 고가 자재 손상 Zero 시공. 전문 교육 이수.</p></div>
+    <div class="card fade"><div class="ic">🚗</div><h3>프리미엄 장비 사용</h3><p>일반 청소업체와 다른 전문 장비 사용. 미세먼지 제로 HEPA 필터 청소기, 독일산 스팀 소독기 완비.</p></div>
+    <div class="card fade"><div class="ic">💼</div><h3>영업배상책임보험 가입</h3><p>만약의 가구 손상 시 최대 1억원 보상. 안심하고 맡기실 수 있습니다.</p></div>
+  </div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+  <div class="eyebrow fade">PROCESS</div>
+  <h2 class="fade">📋 이렇게 진행됩니다</h2>
+  <div style="height:20px"></div>
+  <div class="grid">
+    <div class="card step fade"><span class="n">💬</span><div><b>STEP 1</b><h3>상담 및 견적 문의</h3><p>평수, 주소, 희망일 간단히 남겨주세요</p></div></div>
+    <div class="card step fade"><span class="n">📸</span><div><b>STEP 2</b><h3>정확한 견적 산정</h3><p>평수+공간 갯수등 구체적 정보 기반으로 투명한 견적 제공</p></div></div>
+    <div class="card step fade"><span class="n">🗓️</span><div><b>STEP 3</b><h3>일정 확정 및 예약확정</h3><p>원하시는 날짜, 시간 예약 후 예약금 선지불, 잔금은 당일 작업 후</p></div></div>
+    <div class="card step fade"><span class="n">🧹</span><div><b>STEP 4</b><h3>청소 진행</h3><p>완료 30분 전 연락 → 직접 확인</p></div></div>
+    <div class="card step fade"><span class="n">✅</span><div><b>STEP 5</b><h3>확인 후 결제</h3><p>만족하셨을 때만 결제하세요</p></div></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="eyebrow fade">PRICING</div>
+  <h2 class="fade">💰 광양 투명한 가격</h2>
+  <div style="height:20px"></div>
+  <div class="grid" id="pricing"></div>
+  <p class="fine">*신축 입주청소 기준 가격입니다. 오염도에 따라 변동될 수 있으며, 현장 확인 후 최종 견적을 안내드립니다.</p>
+  <p class="fine" style="margin-top:6px">**추가 금액 발생 시 사전 안내 및 고객 동의 하에만 진행됩니다.</p>
+</div></section>
+
+<section class="alt"><div class="wrap">
+  <div class="eyebrow fade">FAQ</div>
+  <h2 class="fade">광양 고객님들이 가장 많이 하시는 질문</h2>
+  <div style="height:20px"></div>
+  <details><summary>❓ 추가금이 발생할 수 있나요?</summary><p>오염도가 심하지 않을 시 모두 기본 작업으로 진행됩니다. 추가 금액이 발생할 경우 작업 전 현장에서 사전 안내하며, 고객님의 동의 없이는 절대 진행하지 않습니다. '묻지마 추가' 같은 일은 없습니다.</p></details>
+  <details><summary>❓ 청소 시간은 얼마나 걸리나요?</summary><p>25평 기준 4-5시간, 30평 기준 5-6시간, 40평 이상은 6-8시간 소요됩니다. 오염도에 따라 달라질 수 있으며, 완료 30분 전 연락드립니다.</p></details>
+  <details><summary>❓ 주말이나 공휴일에도 가능한가요?</summary><p>네, 주말·공휴일 작업 가능합니다. 다만 예약이 빠르게 마감되므로 최소 3-5일 전 예약을 권장드립니다.</p></details>
+  <details><summary>❓ 광양시 전지역 가능한가요?</summary><p>네! 광양읍, 중마동, 광영동, 태인동, 금호동 등 광양시 전지역 출장 가능합니다. 당일 출동도 가능하니 문의주세요.</p></details>
+  <details><summary>❓ 페인트나 시멘트 자국도 제거되나요?</summary><p>신축 입주청소의 경우 페인트·시멘트·실리콘 자국 제거가 기본 포함입니다. 다만 과도하게 심한 경우 추가 작업이 필요할 수 있으며, 이 경우 현장에서 사전 안내드립니다.</p></details>
+</div></section>
+
+<section><div class="wrap">
+  <div class="offer fade">
+    <div class="eyebrow" style="color:#b45309">SPECIAL OFFER</div>
+    <h2>🎁 광양 이웃 특별 혜택</h2>
+    <p class="big">카카오톡 채널 추가 → 즉시 10,000원 할인</p>
+    <p>이웃 추천 시 양쪽 모두 20,000원 할인</p>
+    <p style="color:#b45309">이번 달 한정 혜택 | 선착순 20팀만 가능</p>
+    <p style="font-size:12px;font-weight:600;color:var(--sub)">※ 각 혜택은 중복 적용되지 않습니다.</p>
+    <a class="btn kakao" href="http://pf.kakao.com/_xmExcjn/chat">카카오톡 문의하고 할인 받기</a>
+  </div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+  <div class="eyebrow fade">VIDEO</div>
+  <h2 class="fade">🎬 실제 작업 영상으로 확인하세요</h2>
+  <div style="height:20px"></div>
+  <div class="video fade"><iframe src="https://www.youtube.com/embed/c5XC_Unn_Fs" title="실제 작업 영상" allowfullscreen loading="lazy"></iframe></div>
+  <p class="note" style="margin-top:16px">숨기는 것 없이 전체 과정을 공개합니다</p>
+</div></section>
+
+<section class="final"><div class="wrap">
+  <h2 class="fade">지금 바로 광양 최고의<br>입주청소를 경험하세요</h2>
+  <p class="lead fade" style="color:var(--ink)">완료 30분 전 연락 → 직접 확인 → 만족 후 결제</p>
+  <a class="btn kakao" href="http://pf.kakao.com/_xmExcjn/chat">💬 카카오톡 견적 받기</a>
+  <a class="btn naver" href="https://talk.naver.com/ct/w4mgx9?frm=pblog#nafullscreen">네이버 톡톡 문의</a>
+  <a class="btn white tel" href="tel:010-2188-8804">📞 전화문의</a>
+  <p class="small">전화 문의 시 현장 소음으로 통화가 어려울 수 있습니다. 문자 남겨주시면 빠르게 답변드립니다.</p>
+  <p class="small" style="margin-top:8px">상담시간: 평일 08:00-22:00 | 주말 09:00-22:00</p>
+</div></section>
+</div>
+
+<div id="reviews-page"><div class="wrap">
+  <a class="back" href="#top">← 메인 페이지로 돌아가기</a>
+  <h2 style="text-align:left;margin-top:10px">고객 후기</h2>
+  <p class="lead" style="text-align:left">실제 고객님들의 생생한 후기를 확인하세요</p>
+  <div class="rev" id="revlist"></div>
+</div></div>
+
+<div class="sticky"><a class="btn kakao" href="http://pf.kakao.com/_xmExcjn/chat">💬 카카오톡 견적문의</a><small>지금문의시 1만원 할인혜택</small></div>
+
+<script>
+const P=[["원룸","200,000원~","원룸 기준",["기본 입주청소","수납장·전등 탈거 작업","스팀소독","1주일 A/S"]],
+["1.5룸","240,000원~","1.5룸 기준",["기본 입주청소","수납장·전등 탈거 작업","스팀소독","1주일 A/S"]],
+["투룸","260,000원~","투룸 기준",["기본 입주청소","수납장·전등 탈거 작업","스팀소독","1주일 A/S"]],
+["20평형","340,000원~","20평형 기준",["기본 입주청소","수납장·전등 탈거 작업","스팀소독","1주일 A/S"]],
+["30평형","480,000원~","30평형 기준",["기본 입주청소","수납장·전등 탈거 작업","스팀소독","1주일 A/S","붙박이장 내부 청소"],1]];
+document.getElementById('pricing').innerHTML=P.map(p=>`<div class="card price fade${p[4]?' hot':''}">${p[4]?'<span class="badge">인기</span>':''}<h3>${p[0]}</h3><div class="p">${p[1]}</div><div class="b">${p[2]}</div><ul>${p[3].map(x=>`<li>${x}</li>`).join('')}</ul><a class="q" href="http://pf.kakao.com/_xmExcjn/chat">견적 받기</a></div>`).join('');
+const IMG={'8150426a6_SE-1bf8ef49-7377-4dd4-ab25-c31c2f201e34': 'img/1f77a415cf.png', 'ce55a71c5_SE-1fef599d-9ca0-4d44-949f-e2860a9ef4ab': 'img/f500bbc650.png', 'adfb1838b_SE-07cd8dee-3d38-490d-a976-7583b7d18cc1': 'img/167288aef1.png', '1236e8b6b_SE-80bfea8e-b737-4329-8bf1-4105d22fd7ac': 'img/6c0a1a3a9a.png', '6d961aaa8_SE-92cd5cfa-915e-41f0-b742-9773ec5655f3': 'img/60b0508ecc.png', '6c229978c_SE-b45192b6-9999-4e4d-a494-38bf5c0922dc': 'img/7958808430.png', '26c706d50_SE-ca70724b-9601-43ed-ac2a-bb8302a918c7': 'img/139080d1c9.png', '83f60e9ec_SE-dcba27c4-5cba-495d-b76c-6b6744ab2a28': 'img/81c222ad64.png'};
+['8150426a6_SE-1bf8ef49-7377-4dd4-ab25-c31c2f201e34','ce55a71c5_SE-1fef599d-9ca0-4d44-949f-e2860a9ef4ab','adfb1838b_SE-07cd8dee-3d38-490d-a976-7583b7d18cc1','1236e8b6b_SE-80bfea8e-b737-4329-8bf1-4105d22fd7ac','6d961aaa8_SE-92cd5cfa-915e-41f0-b742-9773ec5655f3','6c229978c_SE-b45192b6-9999-4e4d-a494-38bf5c0922dc','26c706d50_SE-ca70724b-9601-43ed-ac2a-bb8302a918c7','83f60e9ec_SE-dcba27c4-5cba-495d-b76c-6b6744ab2a28']
+ .forEach((f,i)=>{document.getElementById('revlist').insertAdjacentHTML('beforeend',`<img loading="lazy" src="${B+f}.png" alt="고객 후기 ${i+1}">`)});
+function route(){document.body.classList.toggle('rv',location.hash==='#all-reviews');if(location.hash==='#all-reviews')scrollTo(0,0)}
+addEventListener('hashchange',route);route();
+</script>
+
+</body>
+</html>
